@@ -45,7 +45,10 @@ const addUser = async (req, res) => {
   try {
     let dataToCreate = { ...req.body || {} };
     dataToCreate = {
-      ...{ 'createdAt':(Date.now()).toString() },
+      ...{
+        'createdAt':(Date.now()).toString(),
+        'addedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+      },
       ...dataToCreate,
     };
     let validateRequest = validation.validateParamsWithJoi(
@@ -166,6 +169,10 @@ const getUserCount = async (req,res) => {
 const updateUser = async (req,res) => {
   try {
     let dataToUpdate = {
+      ...{
+        'updatedAt':(Date.now()).toString(),
+        'updatedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+      },
       ...req.body,
       updatedBy:req.user.id,
     };

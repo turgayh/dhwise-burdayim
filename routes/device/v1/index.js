@@ -7,7 +7,6 @@ const express =  require('express');
 const router =  express.Router();
 router.use('/device/auth',require('./auth'));
 router.use(require('./friendshipRoutes'));
-router.use(require('./orderRoutes'));
 router.use(require('./chat_roomRoutes'));
 router.use(require('./commentRoutes'));
 router.use(require('./eventRoutes'));

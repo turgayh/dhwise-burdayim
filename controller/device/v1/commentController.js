@@ -20,6 +20,13 @@ const utils = require('../../../utils/common');
 const addComment = async (req, res) => {
   try {
     let dataToCreate = { ...req.body || {} };
+    dataToCreate = {
+      ...{
+        'createdAt':(Date.now()).toString(),
+        'addedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+      },
+      ...dataToCreate,
+    };
     let validateRequest = validation.validateParamsWithJoi(
       dataToCreate,
       commentSchemaKey.schemaKeys);
@@ -49,6 +56,10 @@ const bulkInsertComment = async (req,res)=>{
     let dataToCreate = [ ...req.body.data ];
     for (let i = 0;i < dataToCreate.length;i++){
       dataToCreate[i] = {
+        ...{
+          'createdAt':(Date.now()).toString(),
+          'addedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+        },
         ...dataToCreate[i],
         addedBy: req.user.id
       };
@@ -159,6 +170,10 @@ const getCommentCount = async (req,res) => {
 const updateComment = async (req,res) => {
   try {
     let dataToUpdate = {
+      ...{
+        'updatedAt':(Date.now()).toString(),
+        'updatedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+      },
       ...req.body,
       updatedBy:req.user.id,
     };
@@ -193,6 +208,10 @@ const bulkUpdateComment = async (req,res)=>{
     delete dataToUpdate['addedBy'];
     if (req.body && typeof req.body.data === 'object' && req.body.data !== null) {
       dataToUpdate = { 
+        ...{
+          'updatedAt':(Date.now()).toString(),
+          'updatedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+        },
         ...req.body.data,
         updatedBy : req.user.id
       };

@@ -4,7 +4,6 @@
  */
 
 let Friendship = require('../model/friendship');
-let Order = require('../model/order');
 let Chat_room = require('../model/chat_room');
 let Comment = require('../model/comment');
 let Event = require('../model/event');
@@ -21,15 +20,6 @@ let dbService = require('.//dbService');
 const deleteFriendship = async (filter) =>{
   try {
     let response  = await dbService.deleteMany(Friendship,filter);
-    return response;
-  } catch (error){
-    throw new Error(error.message);
-  }
-};
-
-const deleteOrder = async (filter) =>{
-  try {
-    let response  = await dbService.deleteMany(Order,filter);
     return response;
   } catch (error){
     throw new Error(error.message);
@@ -84,9 +74,6 @@ const deleteUser = async (filter) =>{
       const friendshipFilter = { $or: [{ follower : { $in : user } },{ following : { $in : user } },{ updatedBy : { $in : user } }] };
       const friendshipCnt = await dbService.deleteMany(Friendship,friendshipFilter);
 
-      const orderFilter = { $or: [{ orderBy : { $in : user } },{ addedBy : { $in : user } },{ updatedBy : { $in : user } }] };
-      const orderCnt = await dbService.deleteMany(Order,orderFilter);
-
       const commentFilter = { $or: [{ updatedBy : { $in : user } },{ addedBy : { $in : user } }] };
       const commentCnt = await dbService.deleteMany(Comment,commentFilter);
 
@@ -114,7 +101,6 @@ const deleteUser = async (filter) =>{
       let deleted  = await dbService.deleteMany(User,filter);
       let response = {
         friendship :friendshipCnt,
-        order :orderCnt,
         comment :commentCnt,
         event :eventCnt,
         user :userCnt + deleted,
@@ -236,15 +222,6 @@ const countFriendship = async (filter) =>{
   }
 };
 
-const countOrder = async (filter) =>{
-  try {
-    const orderCnt =  await dbService.count(Order,filter);
-    return { order : orderCnt };
-  } catch (error){
-    throw new Error(error.message);
-  }
-};
-
 const countChat_room = async (filter) =>{
   try {
     const chat_roomCnt =  await dbService.count(Chat_room,filter);
@@ -291,9 +268,6 @@ const countUser = async (filter) =>{
       const friendshipFilter = { $or: [{ follower : { $in : user } },{ following : { $in : user } },{ updatedBy : { $in : user } }] };
       const friendshipCnt =  await dbService.count(Friendship,friendshipFilter);
 
-      const orderFilter = { $or: [{ orderBy : { $in : user } },{ addedBy : { $in : user } },{ updatedBy : { $in : user } }] };
-      const orderCnt =  await dbService.count(Order,orderFilter);
-
       const commentFilter = { $or: [{ updatedBy : { $in : user } },{ addedBy : { $in : user } }] };
       const commentCnt =  await dbService.count(Comment,commentFilter);
 
@@ -320,7 +294,6 @@ const countUser = async (filter) =>{
 
       let response = {
         friendship : friendshipCnt,
-        order : orderCnt,
         comment : commentCnt,
         event : eventCnt,
         user : userCnt,
@@ -437,15 +410,6 @@ const softDeleteFriendship = async (filter,updateBody) =>{
   }
 };
 
-const softDeleteOrder = async (filter,updateBody) =>{  
-  try {
-    const orderCnt =  await dbService.updateMany(Order,filter);
-    return { order : orderCnt };
-  } catch (error){
-    throw new Error(error.message);
-  }
-};
-
 const softDeleteChat_room = async (filter,updateBody) =>{  
   try {
     const chat_roomCnt =  await dbService.updateMany(Chat_room,filter);
@@ -493,9 +457,6 @@ const softDeleteUser = async (filter,updateBody) =>{
       const friendshipFilter = { '$or': [{ follower : { '$in' : user } },{ following : { '$in' : user } },{ updatedBy : { '$in' : user } }] };
       const friendshipCnt = await dbService.updateMany(Friendship,friendshipFilter,updateBody);
 
-      const orderFilter = { '$or': [{ orderBy : { '$in' : user } },{ addedBy : { '$in' : user } },{ updatedBy : { '$in' : user } }] };
-      const orderCnt = await dbService.updateMany(Order,orderFilter,updateBody);
-
       const commentFilter = { '$or': [{ updatedBy : { '$in' : user } },{ addedBy : { '$in' : user } }] };
       const commentCnt = await dbService.updateMany(Comment,commentFilter,updateBody);
 
@@ -523,7 +484,6 @@ const softDeleteUser = async (filter,updateBody) =>{
 
       let response = {
         friendship :friendshipCnt,
-        order :orderCnt,
         comment :commentCnt,
         event :eventCnt,
         user :userCnt + updated,
@@ -635,7 +595,6 @@ const softDeleteUserRole = async (filter,updateBody) =>{
 
 module.exports = {
   deleteFriendship,
-  deleteOrder,
   deleteChat_room,
   deleteComment,
   deleteEvent,
@@ -648,7 +607,6 @@ module.exports = {
   deleteRouteRole,
   deleteUserRole,
   countFriendship,
-  countOrder,
   countChat_room,
   countComment,
   countEvent,
@@ -661,7 +619,6 @@ module.exports = {
   countRouteRole,
   countUserRole,
   softDeleteFriendship,
-  softDeleteOrder,
   softDeleteChat_room,
   softDeleteComment,
   softDeleteEvent,

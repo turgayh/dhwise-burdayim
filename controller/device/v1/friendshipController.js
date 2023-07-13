@@ -19,6 +19,13 @@ const utils = require('../../../utils/common');
 const addFriendship = async (req, res) => {
   try {
     let dataToCreate = { ...req.body || {} };
+    dataToCreate = {
+      ...{
+        'follower':(req && req.user && req.user.id ? req.user.id.toString() : null),
+        'createdAt':(Date.now()).toString()
+      },
+      ...dataToCreate,
+    };
     let validateRequest = validation.validateParamsWithJoi(
       dataToCreate,
       friendshipSchemaKey.schemaKeys);
@@ -45,6 +52,15 @@ const bulkInsertFriendship = async (req,res)=>{
       return res.badRequest();
     }
     let dataToCreate = [ ...req.body.data ];
+    for (let i = 0;i < dataToCreate.length;i++){
+      dataToCreate[i] = {
+        ...{
+          'follower':(req && req.user && req.user.id ? req.user.id.toString() : null),
+          'createdAt':(Date.now()).toString()
+        },
+        ...dataToCreate[i],
+      };
+    }
     let createdFriendships = await dbService.create(Friendship,dataToCreate);
     createdFriendships = { count: createdFriendships ? createdFriendships.length : 0 };
     return res.success({ data:{ count:createdFriendships.count || 0 } });
@@ -151,6 +167,10 @@ const getFriendshipCount = async (req,res) => {
 const updateFriendship = async (req,res) => {
   try {
     let dataToUpdate = {
+      ...{
+        'updatedAt':(Date.now()).toString(),
+        'updatedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+      },
       ...req.body,
       updatedBy:req.user.id,
     };
@@ -184,6 +204,10 @@ const bulkUpdateFriendship = async (req,res)=>{
     let dataToUpdate = {};
     if (req.body && typeof req.body.data === 'object' && req.body.data !== null) {
       dataToUpdate = { 
+        ...{
+          'updatedAt':(Date.now()).toString(),
+          'updatedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+        },
         ...req.body.data,
         updatedBy : req.user.id
       };
