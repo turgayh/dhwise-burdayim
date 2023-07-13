@@ -22,7 +22,7 @@ async function seedUser () {
       'isDeleted':false,
       'phoneNumber':'lyrpcfqhs8',
       'email':'Destinee23@hotmail.com',
-      'name':'Victoria Harber',
+      'name':'Rafael Fisher',
       'isActive':true,
       'userType':authConstant.USER_TYPES.User
     };
@@ -33,7 +33,7 @@ async function seedUser () {
       'isDeleted':false,
       'phoneNumber':'zy1tnqoymk',
       'email':'Cydney_Kessler66@hotmail.com',
-      'name':'Tiffany Nitzsche',
+      'name':'Megan Gislason I',
       'isActive':true,
       'userType':authConstant.USER_TYPES.Admin
     };

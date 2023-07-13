@@ -55,6 +55,12 @@ const addUser = async (req, res) => {
       return res.validationError({ message : `Invalid values in parameters, ${validateRequest.message}` });
     }
     dataToCreate = new User(dataToCreate);
+
+    let checkUniqueFields = await utils.checkUniqueFieldsInDatabase(User,[ 'phoneNumber', 'password', 'email' ],dataToCreate,'INSERT');
+    if (checkUniqueFields.isDuplicate){
+      return res.validationError({ message : `${checkUniqueFields.value} already exists.Only unique ${checkUniqueFields.field} are allowed.` });
+    }
+
     let createdUser = await dbService.create(User,dataToCreate);
     return res.success({ data : createdUser });
   } catch (error) {
@@ -176,6 +182,12 @@ const updateUser = async (req,res) => {
         $ne: req.user.id
       }
     };
+
+    let checkUniqueFields = await utils.checkUniqueFieldsInDatabase(User,[ 'phoneNumber', 'password', 'email' ],dataToUpdate,'UPDATE', query);
+    if (checkUniqueFields.isDuplicate){
+      return res.validationError({ message : `${checkUniqueFields.value} already exists.Only unique ${checkUniqueFields.field} are allowed.` });
+    }
+
     let updatedUser = await dbService.updateOne(User,query,dataToUpdate);
     if (!updatedUser){
       return res.recordNotFound();
@@ -215,6 +227,12 @@ const partialUpdateUser = async (req,res) => {
         $ne: req.user.id
       }
     };
+
+    let checkUniqueFields = await utils.checkUniqueFieldsInDatabase(User,[ 'phoneNumber', 'password', 'email' ],dataToUpdate,'UPDATE', query);
+    if (checkUniqueFields.isDuplicate){
+      return res.validationError({ message : `${checkUniqueFields.value} already exists.Only unique ${checkUniqueFields.field} are allowed.` });
+    }
+
     let updatedUser = await dbService.updateOne(User, query, dataToUpdate);
     if (!updatedUser) {
       return res.recordNotFound();

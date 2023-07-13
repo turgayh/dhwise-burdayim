@@ -6,6 +6,7 @@
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
 let idValidator = require('mongoose-id-validator');
+const uniqueValidator = require('mongoose-unique-validator');
 const bcrypt = require('bcrypt');
 const { USER_TYPES } = require('../constants/authConstant');
 const { convertObjectToEnum } = require('../utils/common');
@@ -30,9 +31,9 @@ const schema = new Schema(
     phoneNumber:{
       type:String,
       required:true,
-      unique:false,
+      unique:true,
       lowercase:false,
-      trim:false,
+      trim:true,
       uniqueCaseInsensitive:true
     },
 
@@ -41,9 +42,9 @@ const schema = new Schema(
     email:{
       type:String,
       required:true,
-      unique:false,
+      unique:true,
       lowercase:false,
-      trim:false,
+      trim:true,
       uniqueCaseInsensitive:true
     },
 
@@ -145,5 +146,6 @@ schema.method('toJSON', function () {
 });
 schema.plugin(mongoosePaginate);
 schema.plugin(idValidator);
+schema.plugin(uniqueValidator,{ message: 'Error, expected {VALUE} to be unique.' });
 const user = mongoose.model('user',schema);
 module.exports = user;

@@ -13,9 +13,9 @@ const { convertObjectToEnum } = require('../common');
 
 /** validation keys and properties of user */
 exports.schemaKeys = joi.object({
-  phoneNumber: joi.string().required(),
+  phoneNumber: joi.string().trim().allow(null).allow(''),
   password: joi.string().allow(null).allow(''),
-  email: joi.string().required(),
+  email: joi.string().trim().allow(null).allow(''),
   name: joi.string().required(),
   userType: joi.number().allow(0),
   isActive: joi.boolean(),
@@ -33,17 +33,9 @@ exports.schemaKeys = joi.object({
 
 /** validation keys and properties of user for updation */
 exports.updateSchemaKeys = joi.object({
-  phoneNumber: joi.string().when({
-    is:joi.exist(),
-    then:joi.required(),
-    otherwise:joi.optional()
-  }),
+  phoneNumber: joi.string().trim().allow(null).allow(''),
   password: joi.string().allow(null).allow(''),
-  email: joi.string().when({
-    is:joi.exist(),
-    then:joi.required(),
-    otherwise:joi.optional()
-  }),
+  email: joi.string().trim().allow(null).allow(''),
   name: joi.string().when({
     is:joi.exist(),
     then:joi.required(),
