@@ -19,6 +19,13 @@ const utils = require('../../../utils/common');
 const addEvent = async (req, res) => {
   try {
     let dataToCreate = { ...req.body || {} };
+    dataToCreate = {
+      ...{
+        'createdAt':(Date.now()).toString(),
+        'addedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+      },
+      ...dataToCreate,
+    };
     let validateRequest = validation.validateParamsWithJoi(
       dataToCreate,
       eventSchemaKey.schemaKeys);
@@ -48,6 +55,10 @@ const bulkInsertEvent = async (req,res)=>{
     let dataToCreate = [ ...req.body.data ];
     for (let i = 0;i < dataToCreate.length;i++){
       dataToCreate[i] = {
+        ...{
+          'createdAt':(Date.now()).toString(),
+          'addedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+        },
         ...dataToCreate[i],
         addedBy: req.user.id
       };
@@ -158,6 +169,10 @@ const getEventCount = async (req,res) => {
 const updateEvent = async (req,res) => {
   try {
     let dataToUpdate = {
+      ...{
+        'updatedAt':(Date.now()).toString(),
+        'updatedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+      },
       ...req.body,
       updatedBy:req.user.id,
     };
@@ -192,6 +207,10 @@ const bulkUpdateEvent = async (req,res)=>{
     delete dataToUpdate['addedBy'];
     if (req.body && typeof req.body.data === 'object' && req.body.data !== null) {
       dataToUpdate = { 
+        ...{
+          'updatedAt':(Date.now()).toString(),
+          'updatedBy':(req && req.user && req.user.id ? req.user.id.toString() : null)
+        },
         ...req.body.data,
         updatedBy : req.user.id
       };

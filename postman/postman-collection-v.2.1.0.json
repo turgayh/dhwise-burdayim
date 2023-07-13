@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "burdayim",
-    "_postman_id": "3191fb21-b4f1-4119-b0f3-9b458fcc7021",
+    "_postman_id": "1622e5a1-107d-4fbf-ba73-715a69a5ea2d",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
@@ -82,7 +82,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"follower\": \"64b0551a0fb52ef9a5b9e286\",\n    \"following\": \"64b0551a0fb52ef9a5b9e287\",\n    \"id\": \"64b0551a0fb52ef9a5b9e28c\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-21T23:43:21.450Z\",\n    \"updatedAt\": \"2024-03-25T15:01:17.524Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"follower\": \"64b064029148ff07ce7234b1\",\n    \"following\": \"64b064029148ff07ce7234b2\",\n    \"id\": \"64b064029148ff07ce7234b7\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-19T05:51:41.821Z\",\n    \"updatedAt\": \"2023-11-23T05:11:54.286Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -120,7 +120,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"follower\": \"64b0551a0fb52ef9a5b9e286\",\n  \"following\": \"64b0551a0fb52ef9a5b9e287\"\n}"
+                  "raw": "{\n  \"follower\": \"64b064029148ff07ce7234b1\",\n  \"following\": \"64b064029148ff07ce7234b2\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -153,7 +153,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"follower\": \"64b0551a0fb52ef9a5b9e286\",\n    \"following\": \"64b0551a0fb52ef9a5b9e287\",\n    \"id\": \"64b0551a0fb52ef9a5b9e289\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-21T23:43:21.450Z\",\n    \"updatedAt\": \"2024-03-25T15:01:17.524Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"follower\": \"64b064029148ff07ce7234b1\",\n    \"following\": \"64b064029148ff07ce7234b2\",\n    \"id\": \"64b064029148ff07ce7234b4\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-19T05:51:41.821Z\",\n    \"updatedAt\": \"2023-11-23T05:11:54.286Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -191,7 +191,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"follower\": \"64b0551a0fb52ef9a5b9e286\",\n      \"following\": \"64b0551a0fb52ef9a5b9e287\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"follower\": \"64b064029148ff07ce7234b1\",\n      \"following\": \"64b064029148ff07ce7234b2\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -295,7 +295,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"follower\": \"64b0551a0fb52ef9a5b9e286\",\n        \"following\": \"64b0551a0fb52ef9a5b9e287\",\n        \"id\": \"64b0551a0fb52ef9a5b9e28b\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2023-11-21T23:43:21.450Z\",\n        \"updatedAt\": \"2024-03-25T15:01:17.524Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"follower\": \"64b064029148ff07ce7234b1\",\n        \"following\": \"64b064029148ff07ce7234b2\",\n        \"id\": \"64b064029148ff07ce7234b6\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2023-12-19T05:51:41.821Z\",\n        \"updatedAt\": \"2023-11-23T05:11:54.286Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -481,7 +481,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"follower\": \"64b0551a0fb52ef9a5b9e286\",\n  \"following\": \"64b0551a0fb52ef9a5b9e287\"\n}"
+                  "raw": "{\n  \"follower\": \"64b064029148ff07ce7234b1\",\n  \"following\": \"64b064029148ff07ce7234b2\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -520,7 +520,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"follower\": \"64b0551a0fb52ef9a5b9e286\",\n    \"following\": \"64b0551a0fb52ef9a5b9e287\",\n    \"id\": \"64b0551a0fb52ef9a5b9e28d\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-21T23:43:21.450Z\",\n    \"updatedAt\": \"2024-03-25T15:01:17.524Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"follower\": \"64b064029148ff07ce7234b1\",\n    \"following\": \"64b064029148ff07ce7234b2\",\n    \"id\": \"64b064029148ff07ce7234b8\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-19T05:51:41.821Z\",\n    \"updatedAt\": \"2023-11-23T05:11:54.286Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -603,7 +603,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"follower\": \"64b0551a0fb52ef9a5b9e286\",\n    \"following\": \"64b0551a0fb52ef9a5b9e287\",\n    \"id\": \"64b0551a0fb52ef9a5b9e28e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-21T23:43:21.450Z\",\n    \"updatedAt\": \"2024-03-25T15:01:17.524Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"follower\": \"64b064029148ff07ce7234b1\",\n    \"following\": \"64b064029148ff07ce7234b2\",\n    \"id\": \"64b064029148ff07ce7234b9\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-19T05:51:41.821Z\",\n    \"updatedAt\": \"2023-11-23T05:11:54.286Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1164,11 +1164,6 @@
           ]
         },
         {
-          "name": "order",
-          "description": "order Model APIs",
-          "item": []
-        },
-        {
           "name": "chat_room",
           "description": "chat_room Model APIs",
           "item": [
@@ -1241,7 +1236,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"messages\": [\n      {\n        \"_id\": false,\n        \"message\": \"context-sensitive\",\n        \"addedTime\": \"2023-12-13T15:25:56.097Z\"\n      }\n    ],\n    \"roomID\": \"multi-byte\",\n    \"id\": \"64b0551a0fb52ef9a5b9e296\",\n    \"isDeleted\": false,\n    \"createdAt\": \"2024-04-12T01:21:54.622Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"messages\": [\n      {\n        \"_id\": false,\n        \"message\": \"Chicken\",\n        \"addedTime\": \"2024-05-13T00:31:11.366Z\"\n      }\n    ],\n    \"roomID\": \"Intelligent\",\n    \"id\": \"64b064029148ff07ce7234bf\",\n    \"isDeleted\": false,\n    \"createdAt\": \"2023-08-06T05:44:58.486Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1279,7 +1274,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"messages\": [\n    {\n      \"_id\": false,\n      \"message\": \"context-sensitive\",\n      \"addedTime\": \"2023-12-13T15:25:56.097Z\"\n    }\n  ],\n  \"roomID\": \"multi-byte\"\n}"
+                  "raw": "{\n  \"messages\": [\n    {\n      \"_id\": false,\n      \"message\": \"Chicken\",\n      \"addedTime\": \"2024-05-13T00:31:11.366Z\"\n    }\n  ],\n  \"roomID\": \"Intelligent\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1312,7 +1307,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"messages\": [\n      {\n        \"_id\": false,\n        \"message\": \"context-sensitive\",\n        \"addedTime\": \"2023-12-13T15:25:56.097Z\"\n      }\n    ],\n    \"roomID\": \"multi-byte\",\n    \"id\": \"64b0551a0fb52ef9a5b9e293\",\n    \"isDeleted\": false,\n    \"createdAt\": \"2024-04-12T01:21:54.622Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"messages\": [\n      {\n        \"_id\": false,\n        \"message\": \"Chicken\",\n        \"addedTime\": \"2024-05-13T00:31:11.366Z\"\n      }\n    ],\n    \"roomID\": \"Intelligent\",\n    \"id\": \"64b064029148ff07ce7234bc\",\n    \"isDeleted\": false,\n    \"createdAt\": \"2023-08-06T05:44:58.486Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1350,7 +1345,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"messages\": [\n        {\n          \"_id\": false,\n          \"message\": \"context-sensitive\",\n          \"addedTime\": \"2023-12-13T15:25:56.097Z\"\n        }\n      ],\n      \"roomID\": \"multi-byte\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"messages\": [\n        {\n          \"_id\": false,\n          \"message\": \"Chicken\",\n          \"addedTime\": \"2024-05-13T00:31:11.366Z\"\n        }\n      ],\n      \"roomID\": \"Intelligent\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1454,7 +1449,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"messages\": [\n          {\n            \"_id\": false,\n            \"message\": \"context-sensitive\",\n            \"addedTime\": \"2023-12-13T15:25:56.097Z\"\n          }\n        ],\n        \"roomID\": \"multi-byte\",\n        \"id\": \"64b0551a0fb52ef9a5b9e295\",\n        \"isDeleted\": false,\n        \"createdAt\": \"2024-04-12T01:21:54.622Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"messages\": [\n          {\n            \"_id\": false,\n            \"message\": \"Chicken\",\n            \"addedTime\": \"2024-05-13T00:31:11.366Z\"\n          }\n        ],\n        \"roomID\": \"Intelligent\",\n        \"id\": \"64b064029148ff07ce7234be\",\n        \"isDeleted\": false,\n        \"createdAt\": \"2023-08-06T05:44:58.486Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1640,7 +1635,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"messages\": [\n    {\n      \"_id\": false,\n      \"message\": \"context-sensitive\",\n      \"addedTime\": \"2023-12-13T15:25:56.097Z\"\n    }\n  ],\n  \"roomID\": \"multi-byte\"\n}"
+                  "raw": "{\n  \"messages\": [\n    {\n      \"_id\": false,\n      \"message\": \"Chicken\",\n      \"addedTime\": \"2024-05-13T00:31:11.366Z\"\n    }\n  ],\n  \"roomID\": \"Intelligent\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1679,7 +1674,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"messages\": [\n      {\n        \"_id\": false,\n        \"message\": \"context-sensitive\",\n        \"addedTime\": \"2023-12-13T15:25:56.097Z\"\n      }\n    ],\n    \"roomID\": \"multi-byte\",\n    \"id\": \"64b0551a0fb52ef9a5b9e297\",\n    \"isDeleted\": false,\n    \"createdAt\": \"2024-04-12T01:21:54.622Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"messages\": [\n      {\n        \"_id\": false,\n        \"message\": \"Chicken\",\n        \"addedTime\": \"2024-05-13T00:31:11.366Z\"\n      }\n    ],\n    \"roomID\": \"Intelligent\",\n    \"id\": \"64b064029148ff07ce7234c0\",\n    \"isDeleted\": false,\n    \"createdAt\": \"2023-08-06T05:44:58.486Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1762,7 +1757,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"messages\": [\n      {\n        \"_id\": false,\n        \"message\": \"context-sensitive\",\n        \"addedTime\": \"2023-12-13T15:25:56.097Z\"\n      }\n    ],\n    \"roomID\": \"multi-byte\",\n    \"id\": \"64b0551a0fb52ef9a5b9e298\",\n    \"isDeleted\": false,\n    \"createdAt\": \"2024-04-12T01:21:54.622Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"messages\": [\n      {\n        \"_id\": false,\n        \"message\": \"Chicken\",\n        \"addedTime\": \"2024-05-13T00:31:11.366Z\"\n      }\n    ],\n    \"roomID\": \"Intelligent\",\n    \"id\": \"64b064029148ff07ce7234c1\",\n    \"isDeleted\": false,\n    \"createdAt\": \"2023-08-06T05:44:58.486Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2157,7 +2152,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"comment\": \"attitude\",\n    \"upvoteCount\": 723,\n    \"downVoteCount\": 73,\n    \"commentTime\": \"2023-09-18T19:19:05.922Z\",\n    \"parentItem\": \"64b0551a0fb52ef9a5b9e29a\",\n    \"id\": \"64b0551a0fb52ef9a5b9e29f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-20T09:43:27.413Z\",\n    \"updatedAt\": \"2024-06-29T02:09:05.487Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"comment\": \"cross-platform\",\n    \"upvoteCount\": 904,\n    \"downVoteCount\": 456,\n    \"commentTime\": \"2024-04-25T04:59:47.855Z\",\n    \"parentItem\": \"64b064029148ff07ce7234c3\",\n    \"id\": \"64b064029148ff07ce7234c8\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-30T15:32:36.408Z\",\n    \"updatedAt\": \"2024-05-19T23:46:02.229Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2195,7 +2190,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"comment\": \"attitude\",\n  \"upvoteCount\": 723,\n  \"downVoteCount\": 73,\n  \"commentTime\": \"2023-09-18T19:19:05.922Z\",\n  \"parentItem\": \"64b0551a0fb52ef9a5b9e29a\"\n}"
+                  "raw": "{\n  \"comment\": \"cross-platform\",\n  \"upvoteCount\": 904,\n  \"downVoteCount\": 456,\n  \"commentTime\": \"2024-04-25T04:59:47.855Z\",\n  \"parentItem\": \"64b064029148ff07ce7234c3\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2228,7 +2223,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"comment\": \"attitude\",\n    \"upvoteCount\": 723,\n    \"downVoteCount\": 73,\n    \"commentTime\": \"2023-09-18T19:19:05.922Z\",\n    \"parentItem\": \"64b0551a0fb52ef9a5b9e29a\",\n    \"id\": \"64b0551a0fb52ef9a5b9e29c\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-20T09:43:27.413Z\",\n    \"updatedAt\": \"2024-06-29T02:09:05.487Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"comment\": \"cross-platform\",\n    \"upvoteCount\": 904,\n    \"downVoteCount\": 456,\n    \"commentTime\": \"2024-04-25T04:59:47.855Z\",\n    \"parentItem\": \"64b064029148ff07ce7234c3\",\n    \"id\": \"64b064029148ff07ce7234c5\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-30T15:32:36.408Z\",\n    \"updatedAt\": \"2024-05-19T23:46:02.229Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2266,7 +2261,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"comment\": \"attitude\",\n      \"upvoteCount\": 723,\n      \"downVoteCount\": 73,\n      \"commentTime\": \"2023-09-18T19:19:05.922Z\",\n      \"parentItem\": \"64b0551a0fb52ef9a5b9e29a\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"comment\": \"cross-platform\",\n      \"upvoteCount\": 904,\n      \"downVoteCount\": 456,\n      \"commentTime\": \"2024-04-25T04:59:47.855Z\",\n      \"parentItem\": \"64b064029148ff07ce7234c3\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2370,7 +2365,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"comment\": \"attitude\",\n        \"upvoteCount\": 723,\n        \"downVoteCount\": 73,\n        \"commentTime\": \"2023-09-18T19:19:05.922Z\",\n        \"parentItem\": \"64b0551a0fb52ef9a5b9e29a\",\n        \"id\": \"64b0551a0fb52ef9a5b9e29e\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-06-20T09:43:27.413Z\",\n        \"updatedAt\": \"2024-06-29T02:09:05.487Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"comment\": \"cross-platform\",\n        \"upvoteCount\": 904,\n        \"downVoteCount\": 456,\n        \"commentTime\": \"2024-04-25T04:59:47.855Z\",\n        \"parentItem\": \"64b064029148ff07ce7234c3\",\n        \"id\": \"64b064029148ff07ce7234c7\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-06-30T15:32:36.408Z\",\n        \"updatedAt\": \"2024-05-19T23:46:02.229Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2556,7 +2551,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"comment\": \"attitude\",\n  \"upvoteCount\": 723,\n  \"downVoteCount\": 73,\n  \"commentTime\": \"2023-09-18T19:19:05.922Z\",\n  \"parentItem\": \"64b0551a0fb52ef9a5b9e29a\"\n}"
+                  "raw": "{\n  \"comment\": \"cross-platform\",\n  \"upvoteCount\": 904,\n  \"downVoteCount\": 456,\n  \"commentTime\": \"2024-04-25T04:59:47.855Z\",\n  \"parentItem\": \"64b064029148ff07ce7234c3\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2595,7 +2590,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"comment\": \"attitude\",\n    \"upvoteCount\": 723,\n    \"downVoteCount\": 73,\n    \"commentTime\": \"2023-09-18T19:19:05.922Z\",\n    \"parentItem\": \"64b0551a0fb52ef9a5b9e29a\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2a0\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-20T09:43:27.413Z\",\n    \"updatedAt\": \"2024-06-29T02:09:05.487Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"comment\": \"cross-platform\",\n    \"upvoteCount\": 904,\n    \"downVoteCount\": 456,\n    \"commentTime\": \"2024-04-25T04:59:47.855Z\",\n    \"parentItem\": \"64b064029148ff07ce7234c3\",\n    \"id\": \"64b064029148ff07ce7234c9\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-30T15:32:36.408Z\",\n    \"updatedAt\": \"2024-05-19T23:46:02.229Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2678,7 +2673,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"comment\": \"attitude\",\n    \"upvoteCount\": 723,\n    \"downVoteCount\": 73,\n    \"commentTime\": \"2023-09-18T19:19:05.922Z\",\n    \"parentItem\": \"64b0551a0fb52ef9a5b9e29a\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2a1\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-20T09:43:27.413Z\",\n    \"updatedAt\": \"2024-06-29T02:09:05.487Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"comment\": \"cross-platform\",\n    \"upvoteCount\": 904,\n    \"downVoteCount\": 456,\n    \"commentTime\": \"2024-04-25T04:59:47.855Z\",\n    \"parentItem\": \"64b064029148ff07ce7234c3\",\n    \"id\": \"64b064029148ff07ce7234ca\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-30T15:32:36.408Z\",\n    \"updatedAt\": \"2024-05-19T23:46:02.229Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3073,7 +3068,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Mrs. Vicki Huel\",\n    \"description\": \"Direct\",\n    \"address\": {\n      \"line1\": \"reboot\",\n      \"line2\": \"Sausages\",\n      \"city\": \"logistical\",\n      \"country\": \"Dinar\",\n      \"state\": \"Cotton\",\n      \"pincode\": \"Dobra\",\n      \"lat\": 954,\n      \"lng\": 289\n    },\n    \"startDateTime\": \"2023-10-05T20:57:16.173Z\",\n    \"endDateTime\": \"2024-01-24T07:25:47.688Z\",\n    \"category\": \"coherent\",\n    \"subCategory\": \"quantifying\",\n    \"price\": 10,\n    \"qrCode\": \"Implemented\",\n    \"count\": 436,\n    \"id\": \"64b0551a0fb52ef9a5b9e2a7\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-08-25T16:44:34.854Z\",\n    \"updatedAt\": \"2024-06-02T01:15:13.092Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Judith Haley\",\n    \"description\": \"payment\",\n    \"address\": {\n      \"line1\": \"superstructure\",\n      \"line2\": \"impactful\",\n      \"city\": \"core\",\n      \"country\": \"orchid\",\n      \"state\": \"De-engineered\",\n      \"pincode\": \"Louisiana\",\n      \"lat\": 59,\n      \"lng\": 728\n    },\n    \"startDateTime\": \"2023-07-18T17:03:06.297Z\",\n    \"endDateTime\": \"2023-12-25T20:46:50.597Z\",\n    \"category\": \"reinvent\",\n    \"subCategory\": \"port\",\n    \"price\": 10,\n    \"qrCode\": \"maximized\",\n    \"count\": 204,\n    \"id\": \"64b064029148ff07ce7234d0\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-01T12:36:50.078Z\",\n    \"updatedAt\": \"2023-12-25T21:55:12.277Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3111,7 +3106,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Mrs. Vicki Huel\",\n  \"description\": \"Direct\",\n  \"address\": {\n    \"line1\": \"reboot\",\n    \"line2\": \"Sausages\",\n    \"city\": \"logistical\",\n    \"country\": \"Dinar\",\n    \"state\": \"Cotton\",\n    \"pincode\": \"Dobra\",\n    \"lat\": 954,\n    \"lng\": 289\n  },\n  \"startDateTime\": \"2023-10-05T20:57:16.173Z\",\n  \"endDateTime\": \"2024-01-24T07:25:47.688Z\",\n  \"category\": \"coherent\",\n  \"subCategory\": \"quantifying\",\n  \"price\": 10,\n  \"qrCode\": \"Implemented\",\n  \"count\": 436\n}"
+                  "raw": "{\n  \"name\": \"Judith Haley\",\n  \"description\": \"payment\",\n  \"address\": {\n    \"line1\": \"superstructure\",\n    \"line2\": \"impactful\",\n    \"city\": \"core\",\n    \"country\": \"orchid\",\n    \"state\": \"De-engineered\",\n    \"pincode\": \"Louisiana\",\n    \"lat\": 59,\n    \"lng\": 728\n  },\n  \"startDateTime\": \"2023-07-18T17:03:06.297Z\",\n  \"endDateTime\": \"2023-12-25T20:46:50.597Z\",\n  \"category\": \"reinvent\",\n  \"subCategory\": \"port\",\n  \"price\": 10,\n  \"qrCode\": \"maximized\",\n  \"count\": 204\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3144,7 +3139,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Mrs. Vicki Huel\",\n    \"description\": \"Direct\",\n    \"address\": {\n      \"line1\": \"reboot\",\n      \"line2\": \"Sausages\",\n      \"city\": \"logistical\",\n      \"country\": \"Dinar\",\n      \"state\": \"Cotton\",\n      \"pincode\": \"Dobra\",\n      \"lat\": 954,\n      \"lng\": 289\n    },\n    \"startDateTime\": \"2023-10-05T20:57:16.173Z\",\n    \"endDateTime\": \"2024-01-24T07:25:47.688Z\",\n    \"category\": \"coherent\",\n    \"subCategory\": \"quantifying\",\n    \"price\": 10,\n    \"qrCode\": \"Implemented\",\n    \"count\": 436,\n    \"id\": \"64b0551a0fb52ef9a5b9e2a4\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-08-25T16:44:34.854Z\",\n    \"updatedAt\": \"2024-06-02T01:15:13.092Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Judith Haley\",\n    \"description\": \"payment\",\n    \"address\": {\n      \"line1\": \"superstructure\",\n      \"line2\": \"impactful\",\n      \"city\": \"core\",\n      \"country\": \"orchid\",\n      \"state\": \"De-engineered\",\n      \"pincode\": \"Louisiana\",\n      \"lat\": 59,\n      \"lng\": 728\n    },\n    \"startDateTime\": \"2023-07-18T17:03:06.297Z\",\n    \"endDateTime\": \"2023-12-25T20:46:50.597Z\",\n    \"category\": \"reinvent\",\n    \"subCategory\": \"port\",\n    \"price\": 10,\n    \"qrCode\": \"maximized\",\n    \"count\": 204,\n    \"id\": \"64b064029148ff07ce7234cd\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-01T12:36:50.078Z\",\n    \"updatedAt\": \"2023-12-25T21:55:12.277Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3182,7 +3177,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Mrs. Vicki Huel\",\n      \"description\": \"Direct\",\n      \"address\": {\n        \"line1\": \"reboot\",\n        \"line2\": \"Sausages\",\n        \"city\": \"logistical\",\n        \"country\": \"Dinar\",\n        \"state\": \"Cotton\",\n        \"pincode\": \"Dobra\",\n        \"lat\": 954,\n        \"lng\": 289\n      },\n      \"startDateTime\": \"2023-10-05T20:57:16.173Z\",\n      \"endDateTime\": \"2024-01-24T07:25:47.688Z\",\n      \"category\": \"coherent\",\n      \"subCategory\": \"quantifying\",\n      \"price\": 10,\n      \"qrCode\": \"Implemented\",\n      \"count\": 436\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Judith Haley\",\n      \"description\": \"payment\",\n      \"address\": {\n        \"line1\": \"superstructure\",\n        \"line2\": \"impactful\",\n        \"city\": \"core\",\n        \"country\": \"orchid\",\n        \"state\": \"De-engineered\",\n        \"pincode\": \"Louisiana\",\n        \"lat\": 59,\n        \"lng\": 728\n      },\n      \"startDateTime\": \"2023-07-18T17:03:06.297Z\",\n      \"endDateTime\": \"2023-12-25T20:46:50.597Z\",\n      \"category\": \"reinvent\",\n      \"subCategory\": \"port\",\n      \"price\": 10,\n      \"qrCode\": \"maximized\",\n      \"count\": 204\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3286,7 +3281,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Mrs. Vicki Huel\",\n        \"description\": \"Direct\",\n        \"address\": {\n          \"line1\": \"reboot\",\n          \"line2\": \"Sausages\",\n          \"city\": \"logistical\",\n          \"country\": \"Dinar\",\n          \"state\": \"Cotton\",\n          \"pincode\": \"Dobra\",\n          \"lat\": 954,\n          \"lng\": 289\n        },\n        \"startDateTime\": \"2023-10-05T20:57:16.173Z\",\n        \"endDateTime\": \"2024-01-24T07:25:47.688Z\",\n        \"category\": \"coherent\",\n        \"subCategory\": \"quantifying\",\n        \"price\": 10,\n        \"qrCode\": \"Implemented\",\n        \"count\": 436,\n        \"id\": \"64b0551a0fb52ef9a5b9e2a6\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2023-08-25T16:44:34.854Z\",\n        \"updatedAt\": \"2024-06-02T01:15:13.092Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Judith Haley\",\n        \"description\": \"payment\",\n        \"address\": {\n          \"line1\": \"superstructure\",\n          \"line2\": \"impactful\",\n          \"city\": \"core\",\n          \"country\": \"orchid\",\n          \"state\": \"De-engineered\",\n          \"pincode\": \"Louisiana\",\n          \"lat\": 59,\n          \"lng\": 728\n        },\n        \"startDateTime\": \"2023-07-18T17:03:06.297Z\",\n        \"endDateTime\": \"2023-12-25T20:46:50.597Z\",\n        \"category\": \"reinvent\",\n        \"subCategory\": \"port\",\n        \"price\": 10,\n        \"qrCode\": \"maximized\",\n        \"count\": 204,\n        \"id\": \"64b064029148ff07ce7234cf\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-03-01T12:36:50.078Z\",\n        \"updatedAt\": \"2023-12-25T21:55:12.277Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3472,7 +3467,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Mrs. Vicki Huel\",\n  \"description\": \"Direct\",\n  \"address\": {\n    \"line1\": \"reboot\",\n    \"line2\": \"Sausages\",\n    \"city\": \"logistical\",\n    \"country\": \"Dinar\",\n    \"state\": \"Cotton\",\n    \"pincode\": \"Dobra\",\n    \"lat\": 954,\n    \"lng\": 289\n  },\n  \"startDateTime\": \"2023-10-05T20:57:16.173Z\",\n  \"endDateTime\": \"2024-01-24T07:25:47.688Z\",\n  \"category\": \"coherent\",\n  \"subCategory\": \"quantifying\",\n  \"price\": 10,\n  \"qrCode\": \"Implemented\",\n  \"count\": 436\n}"
+                  "raw": "{\n  \"name\": \"Judith Haley\",\n  \"description\": \"payment\",\n  \"address\": {\n    \"line1\": \"superstructure\",\n    \"line2\": \"impactful\",\n    \"city\": \"core\",\n    \"country\": \"orchid\",\n    \"state\": \"De-engineered\",\n    \"pincode\": \"Louisiana\",\n    \"lat\": 59,\n    \"lng\": 728\n  },\n  \"startDateTime\": \"2023-07-18T17:03:06.297Z\",\n  \"endDateTime\": \"2023-12-25T20:46:50.597Z\",\n  \"category\": \"reinvent\",\n  \"subCategory\": \"port\",\n  \"price\": 10,\n  \"qrCode\": \"maximized\",\n  \"count\": 204\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3511,7 +3506,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Mrs. Vicki Huel\",\n    \"description\": \"Direct\",\n    \"address\": {\n      \"line1\": \"reboot\",\n      \"line2\": \"Sausages\",\n      \"city\": \"logistical\",\n      \"country\": \"Dinar\",\n      \"state\": \"Cotton\",\n      \"pincode\": \"Dobra\",\n      \"lat\": 954,\n      \"lng\": 289\n    },\n    \"startDateTime\": \"2023-10-05T20:57:16.173Z\",\n    \"endDateTime\": \"2024-01-24T07:25:47.688Z\",\n    \"category\": \"coherent\",\n    \"subCategory\": \"quantifying\",\n    \"price\": 10,\n    \"qrCode\": \"Implemented\",\n    \"count\": 436,\n    \"id\": \"64b0551a0fb52ef9a5b9e2a8\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-08-25T16:44:34.854Z\",\n    \"updatedAt\": \"2024-06-02T01:15:13.092Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Judith Haley\",\n    \"description\": \"payment\",\n    \"address\": {\n      \"line1\": \"superstructure\",\n      \"line2\": \"impactful\",\n      \"city\": \"core\",\n      \"country\": \"orchid\",\n      \"state\": \"De-engineered\",\n      \"pincode\": \"Louisiana\",\n      \"lat\": 59,\n      \"lng\": 728\n    },\n    \"startDateTime\": \"2023-07-18T17:03:06.297Z\",\n    \"endDateTime\": \"2023-12-25T20:46:50.597Z\",\n    \"category\": \"reinvent\",\n    \"subCategory\": \"port\",\n    \"price\": 10,\n    \"qrCode\": \"maximized\",\n    \"count\": 204,\n    \"id\": \"64b064029148ff07ce7234d1\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-01T12:36:50.078Z\",\n    \"updatedAt\": \"2023-12-25T21:55:12.277Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3594,7 +3589,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Mrs. Vicki Huel\",\n    \"description\": \"Direct\",\n    \"address\": {\n      \"line1\": \"reboot\",\n      \"line2\": \"Sausages\",\n      \"city\": \"logistical\",\n      \"country\": \"Dinar\",\n      \"state\": \"Cotton\",\n      \"pincode\": \"Dobra\",\n      \"lat\": 954,\n      \"lng\": 289\n    },\n    \"startDateTime\": \"2023-10-05T20:57:16.173Z\",\n    \"endDateTime\": \"2024-01-24T07:25:47.688Z\",\n    \"category\": \"coherent\",\n    \"subCategory\": \"quantifying\",\n    \"price\": 10,\n    \"qrCode\": \"Implemented\",\n    \"count\": 436,\n    \"id\": \"64b0551a0fb52ef9a5b9e2a9\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-08-25T16:44:34.854Z\",\n    \"updatedAt\": \"2024-06-02T01:15:13.092Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Judith Haley\",\n    \"description\": \"payment\",\n    \"address\": {\n      \"line1\": \"superstructure\",\n      \"line2\": \"impactful\",\n      \"city\": \"core\",\n      \"country\": \"orchid\",\n      \"state\": \"De-engineered\",\n      \"pincode\": \"Louisiana\",\n      \"lat\": 59,\n      \"lng\": 728\n    },\n    \"startDateTime\": \"2023-07-18T17:03:06.297Z\",\n    \"endDateTime\": \"2023-12-25T20:46:50.597Z\",\n    \"category\": \"reinvent\",\n    \"subCategory\": \"port\",\n    \"price\": 10,\n    \"qrCode\": \"maximized\",\n    \"count\": 204,\n    \"id\": \"64b064029148ff07ce7234d2\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-01T12:36:50.078Z\",\n    \"updatedAt\": \"2023-12-25T21:55:12.277Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3984,7 +3979,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Outdoors\",\n    \"email\": \"Shanon_Marquardt38@yahoo.com\",\n    \"name\": \"Eileen Gaylord\",\n    \"mobileNo\": \"(224) 790-0279\",\n    \"username\": \"Reilly_Sipes43\",\n    \"userType\": 1,\n    \"id\": \"64b0551a0fb52ef9a5b9e2ae\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-16T17:22:20.314Z\",\n    \"updatedAt\": \"2023-11-09T22:46:42.784Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Steel\",\n    \"email\": \"Aryanna_Abbott80@hotmail.com\",\n    \"name\": \"Carole Ullrich Sr.\",\n    \"mobileNo\": \"(824) 856-2710\",\n    \"username\": \"Mitchell0\",\n    \"userType\": 1,\n    \"id\": \"64b064029148ff07ce7234d7\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-03T05:55:45.657Z\",\n    \"updatedAt\": \"2023-08-28T08:53:45.066Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4055,7 +4050,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Outdoors\",\n    \"email\": \"Shanon_Marquardt38@yahoo.com\",\n    \"name\": \"Eileen Gaylord\",\n    \"mobileNo\": \"(224) 790-0279\",\n    \"username\": \"Reilly_Sipes43\",\n    \"userType\": 1,\n    \"id\": \"64b0551a0fb52ef9a5b9e2b2\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-16T17:22:20.314Z\",\n    \"updatedAt\": \"2023-11-09T22:46:42.784Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Steel\",\n    \"email\": \"Aryanna_Abbott80@hotmail.com\",\n    \"name\": \"Carole Ullrich Sr.\",\n    \"mobileNo\": \"(824) 856-2710\",\n    \"username\": \"Mitchell0\",\n    \"userType\": 1,\n    \"id\": \"64b064029148ff07ce7234db\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-03T05:55:45.657Z\",\n    \"updatedAt\": \"2023-08-28T08:53:45.066Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4093,7 +4088,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"phoneNumber\": \"Outdoors\",\n  \"password\": \"pG7yMFKM2erGIRA\",\n  \"email\": \"Shanon_Marquardt38@yahoo.com\",\n  \"name\": \"Eileen Gaylord\",\n  \"mobileNo\": \"(224) 790-0279\",\n  \"username\": \"Reilly_Sipes43\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"phoneNumber\": \"Steel\",\n  \"password\": \"zJWMHW15LDZSZ6p\",\n  \"email\": \"Aryanna_Abbott80@hotmail.com\",\n  \"name\": \"Carole Ullrich Sr.\",\n  \"mobileNo\": \"(824) 856-2710\",\n  \"username\": \"Mitchell0\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {}
@@ -4121,7 +4116,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Outdoors\",\n    \"email\": \"Shanon_Marquardt38@yahoo.com\",\n    \"name\": \"Eileen Gaylord\",\n    \"mobileNo\": \"(224) 790-0279\",\n    \"username\": \"Reilly_Sipes43\",\n    \"userType\": 1,\n    \"id\": \"64b0551a0fb52ef9a5b9e2ac\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-16T17:22:20.314Z\",\n    \"updatedAt\": \"2023-11-09T22:46:42.784Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Steel\",\n    \"email\": \"Aryanna_Abbott80@hotmail.com\",\n    \"name\": \"Carole Ullrich Sr.\",\n    \"mobileNo\": \"(824) 856-2710\",\n    \"username\": \"Mitchell0\",\n    \"userType\": 1,\n    \"id\": \"64b064029148ff07ce7234d5\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-03T05:55:45.657Z\",\n    \"updatedAt\": \"2023-08-28T08:53:45.066Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4187,7 +4182,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"phoneNumber\": \"Outdoors\",\n        \"email\": \"Shanon_Marquardt38@yahoo.com\",\n        \"name\": \"Eileen Gaylord\",\n        \"mobileNo\": \"(224) 790-0279\",\n        \"username\": \"Reilly_Sipes43\",\n        \"userType\": 1,\n        \"id\": \"64b0551a0fb52ef9a5b9e2ad\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-02-16T17:22:20.314Z\",\n        \"updatedAt\": \"2023-11-09T22:46:42.784Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"phoneNumber\": \"Steel\",\n        \"email\": \"Aryanna_Abbott80@hotmail.com\",\n        \"name\": \"Carole Ullrich Sr.\",\n        \"mobileNo\": \"(824) 856-2710\",\n        \"username\": \"Mitchell0\",\n        \"userType\": 1,\n        \"id\": \"64b064029148ff07ce7234d6\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-07-03T05:55:45.657Z\",\n        \"updatedAt\": \"2023-08-28T08:53:45.066Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4297,7 +4292,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"phoneNumber\": \"Outdoors\",\n  \"password\": \"pG7yMFKM2erGIRA\",\n  \"email\": \"Shanon_Marquardt38@yahoo.com\",\n  \"name\": \"Eileen Gaylord\",\n  \"mobileNo\": \"(224) 790-0279\",\n  \"username\": \"Reilly_Sipes43\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"phoneNumber\": \"Steel\",\n  \"password\": \"zJWMHW15LDZSZ6p\",\n  \"email\": \"Aryanna_Abbott80@hotmail.com\",\n  \"name\": \"Carole Ullrich Sr.\",\n  \"mobileNo\": \"(824) 856-2710\",\n  \"username\": \"Mitchell0\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4336,7 +4331,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Outdoors\",\n    \"email\": \"Shanon_Marquardt38@yahoo.com\",\n    \"name\": \"Eileen Gaylord\",\n    \"mobileNo\": \"(224) 790-0279\",\n    \"username\": \"Reilly_Sipes43\",\n    \"userType\": 1,\n    \"id\": \"64b0551a0fb52ef9a5b9e2af\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-16T17:22:20.314Z\",\n    \"updatedAt\": \"2023-11-09T22:46:42.784Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Steel\",\n    \"email\": \"Aryanna_Abbott80@hotmail.com\",\n    \"name\": \"Carole Ullrich Sr.\",\n    \"mobileNo\": \"(824) 856-2710\",\n    \"username\": \"Mitchell0\",\n    \"userType\": 1,\n    \"id\": \"64b064029148ff07ce7234d8\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-03T05:55:45.657Z\",\n    \"updatedAt\": \"2023-08-28T08:53:45.066Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4419,7 +4414,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Outdoors\",\n    \"email\": \"Shanon_Marquardt38@yahoo.com\",\n    \"name\": \"Eileen Gaylord\",\n    \"mobileNo\": \"(224) 790-0279\",\n    \"username\": \"Reilly_Sipes43\",\n    \"userType\": 1,\n    \"id\": \"64b0551a0fb52ef9a5b9e2b0\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-16T17:22:20.314Z\",\n    \"updatedAt\": \"2023-11-09T22:46:42.784Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Steel\",\n    \"email\": \"Aryanna_Abbott80@hotmail.com\",\n    \"name\": \"Carole Ullrich Sr.\",\n    \"mobileNo\": \"(824) 856-2710\",\n    \"username\": \"Mitchell0\",\n    \"userType\": 1,\n    \"id\": \"64b064029148ff07ce7234d9\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-03T05:55:45.657Z\",\n    \"updatedAt\": \"2023-08-28T08:53:45.066Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4611,7 +4606,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"phoneNumber\": \"Outdoors\",\n  \"password\": \"pG7yMFKM2erGIRA\",\n  \"email\": \"Shanon_Marquardt38@yahoo.com\",\n  \"name\": \"Eileen Gaylord\",\n  \"mobileNo\": \"(224) 790-0279\",\n  \"username\": \"Reilly_Sipes43\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"phoneNumber\": \"Steel\",\n  \"password\": \"zJWMHW15LDZSZ6p\",\n  \"email\": \"Aryanna_Abbott80@hotmail.com\",\n  \"name\": \"Carole Ullrich Sr.\",\n  \"mobileNo\": \"(824) 856-2710\",\n  \"username\": \"Mitchell0\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4644,7 +4639,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Outdoors\",\n    \"email\": \"Shanon_Marquardt38@yahoo.com\",\n    \"name\": \"Eileen Gaylord\",\n    \"mobileNo\": \"(224) 790-0279\",\n    \"username\": \"Reilly_Sipes43\",\n    \"userType\": 1,\n    \"id\": \"64b0551a0fb52ef9a5b9e2b1\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-16T17:22:20.314Z\",\n    \"updatedAt\": \"2023-11-09T22:46:42.784Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Steel\",\n    \"email\": \"Aryanna_Abbott80@hotmail.com\",\n    \"name\": \"Carole Ullrich Sr.\",\n    \"mobileNo\": \"(824) 856-2710\",\n    \"username\": \"Mitchell0\",\n    \"userType\": 1,\n    \"id\": \"64b064029148ff07ce7234da\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-03T05:55:45.657Z\",\n    \"updatedAt\": \"2023-08-28T08:53:45.066Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4712,7 +4707,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"phoneNumber\": \"Outdoors\",\n    \"email\": \"Shanon_Marquardt38@yahoo.com\",\n    \"name\": \"Eileen Gaylord\",\n    \"mobileNo\": \"(224) 790-0279\",\n    \"username\": \"Reilly_Sipes43\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2b3\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-02T19:08:36.427Z\",\n    \"updatedAt\": \"2023-07-15T19:34:14.752Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"phoneNumber\": \"Steel\",\n    \"email\": \"Aryanna_Abbott80@hotmail.com\",\n    \"name\": \"Carole Ullrich Sr.\",\n    \"mobileNo\": \"(824) 856-2710\",\n    \"username\": \"Mitchell0\",\n    \"id\": \"64b064029148ff07ce7234dc\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-07-29T13:59:14.482Z\",\n    \"updatedAt\": \"2024-05-23T21:30:51.255Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4748,7 +4743,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"phoneNumber\": \"Outdoors\",\n  \"password\": \"pG7yMFKM2erGIRA\",\n  \"email\": \"Shanon_Marquardt38@yahoo.com\",\n  \"name\": \"Eileen Gaylord\",\n  \"mobileNo\": \"(224) 790-0279\",\n  \"username\": \"Reilly_Sipes43\"\n}"
+                  "raw": "{\n  \"phoneNumber\": \"Steel\",\n  \"password\": \"zJWMHW15LDZSZ6p\",\n  \"email\": \"Aryanna_Abbott80@hotmail.com\",\n  \"name\": \"Carole Ullrich Sr.\",\n  \"mobileNo\": \"(824) 856-2710\",\n  \"username\": \"Mitchell0\"\n}"
                 },
                 "description": "",
                 "auth": {}
@@ -4774,7 +4769,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Outdoors\",\n    \"email\": \"Shanon_Marquardt38@yahoo.com\",\n    \"name\": \"Eileen Gaylord\",\n    \"mobileNo\": \"(224) 790-0279\",\n    \"username\": \"Reilly_Sipes43\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2b3\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-02T19:08:36.427Z\",\n    \"updatedAt\": \"2023-07-15T19:34:14.752Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"phoneNumber\": \"Steel\",\n    \"email\": \"Aryanna_Abbott80@hotmail.com\",\n    \"name\": \"Carole Ullrich Sr.\",\n    \"mobileNo\": \"(824) 856-2710\",\n    \"username\": \"Mitchell0\",\n    \"id\": \"64b064029148ff07ce7234dc\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-07-29T13:59:14.482Z\",\n    \"updatedAt\": \"2024-05-23T21:30:51.255Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5134,7 +5129,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Duane Deckow\",\n    \"code\": \"Loan\",\n    \"weight\": 945,\n    \"id\": \"64b0551a0fb52ef9a5b9e2c1\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-06T12:44:27.517Z\",\n    \"updatedAt\": \"2023-09-15T01:45:12.101Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Vicki Cole\",\n    \"code\": \"Louisiana\",\n    \"weight\": 297,\n    \"id\": \"64b064029148ff07ce7234ea\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-08-29T19:41:29.591Z\",\n    \"updatedAt\": \"2023-09-27T02:47:34.308Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5172,7 +5167,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Duane Deckow\",\n  \"code\": \"Loan\",\n  \"weight\": 945\n}"
+                  "raw": "{\n  \"name\": \"Vicki Cole\",\n  \"code\": \"Louisiana\",\n  \"weight\": 297\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5205,7 +5200,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Duane Deckow\",\n    \"code\": \"Loan\",\n    \"weight\": 945,\n    \"id\": \"64b0551a0fb52ef9a5b9e2bb\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-06T12:44:27.517Z\",\n    \"updatedAt\": \"2023-09-15T01:45:12.101Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Vicki Cole\",\n    \"code\": \"Louisiana\",\n    \"weight\": 297,\n    \"id\": \"64b064029148ff07ce7234e4\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-08-29T19:41:29.591Z\",\n    \"updatedAt\": \"2023-09-27T02:47:34.308Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5243,7 +5238,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Duane Deckow\",\n      \"code\": \"Loan\",\n      \"weight\": 945\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Vicki Cole\",\n      \"code\": \"Louisiana\",\n      \"weight\": 297\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5347,7 +5342,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Duane Deckow\",\n        \"code\": \"Loan\",\n        \"weight\": 945,\n        \"id\": \"64b0551a0fb52ef9a5b9e2bd\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2023-11-06T12:44:27.517Z\",\n        \"updatedAt\": \"2023-09-15T01:45:12.101Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Vicki Cole\",\n        \"code\": \"Louisiana\",\n        \"weight\": 297,\n        \"id\": \"64b064029148ff07ce7234e6\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2023-08-29T19:41:29.591Z\",\n        \"updatedAt\": \"2023-09-27T02:47:34.308Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5797,7 +5792,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Duane Deckow\",\n    \"code\": \"Loan\",\n    \"weight\": 945,\n    \"id\": \"64b0551a0fb52ef9a5b9e2bf\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-06T12:44:27.517Z\",\n    \"updatedAt\": \"2023-09-15T01:45:12.101Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Vicki Cole\",\n    \"code\": \"Louisiana\",\n    \"weight\": 297,\n    \"id\": \"64b064029148ff07ce7234e8\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-08-29T19:41:29.591Z\",\n    \"updatedAt\": \"2023-09-27T02:47:34.308Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5841,7 +5836,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Duane Deckow\",\n  \"code\": \"Loan\",\n  \"weight\": 945\n}"
+                  "raw": "{\n  \"name\": \"Vicki Cole\",\n  \"code\": \"Louisiana\",\n  \"weight\": 297\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5880,7 +5875,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Duane Deckow\",\n    \"code\": \"Loan\",\n    \"weight\": 945,\n    \"id\": \"64b0551a0fb52ef9a5b9e2c0\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-06T12:44:27.517Z\",\n    \"updatedAt\": \"2023-09-15T01:45:12.101Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Vicki Cole\",\n    \"code\": \"Louisiana\",\n    \"weight\": 297,\n    \"id\": \"64b064029148ff07ce7234e9\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-08-29T19:41:29.591Z\",\n    \"updatedAt\": \"2023-09-27T02:47:34.308Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6050,7 +6045,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"backing\",\n    \"method\": \"bleeding-edge\",\n    \"uri\": \"Account\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2c9\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-08T10:02:25.891Z\",\n    \"updatedAt\": \"2023-11-11T17:25:17.188Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Strategist\",\n    \"method\": \"Peso\",\n    \"uri\": \"grey\",\n    \"id\": \"64b064029148ff07ce7234f2\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-05T08:00:56.117Z\",\n    \"updatedAt\": \"2024-03-31T17:29:53.535Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6088,7 +6083,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"route_name\": \"backing\",\n  \"method\": \"bleeding-edge\",\n  \"uri\": \"Account\"\n}"
+                  "raw": "{\n  \"route_name\": \"Strategist\",\n  \"method\": \"Peso\",\n  \"uri\": \"grey\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -6121,7 +6116,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"backing\",\n    \"method\": \"bleeding-edge\",\n    \"uri\": \"Account\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2c3\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-08T10:02:25.891Z\",\n    \"updatedAt\": \"2023-11-11T17:25:17.188Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Strategist\",\n    \"method\": \"Peso\",\n    \"uri\": \"grey\",\n    \"id\": \"64b064029148ff07ce7234ec\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-05T08:00:56.117Z\",\n    \"updatedAt\": \"2024-03-31T17:29:53.535Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6159,7 +6154,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"route_name\": \"backing\",\n      \"method\": \"bleeding-edge\",\n      \"uri\": \"Account\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"route_name\": \"Strategist\",\n      \"method\": \"Peso\",\n      \"uri\": \"grey\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -6263,7 +6258,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"route_name\": \"backing\",\n        \"method\": \"bleeding-edge\",\n        \"uri\": \"Account\",\n        \"id\": \"64b0551a0fb52ef9a5b9e2c5\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-04-08T10:02:25.891Z\",\n        \"updatedAt\": \"2023-11-11T17:25:17.188Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"route_name\": \"Strategist\",\n        \"method\": \"Peso\",\n        \"uri\": \"grey\",\n        \"id\": \"64b064029148ff07ce7234ee\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-05-05T08:00:56.117Z\",\n        \"updatedAt\": \"2024-03-31T17:29:53.535Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6713,7 +6708,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"backing\",\n    \"method\": \"bleeding-edge\",\n    \"uri\": \"Account\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2c7\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-08T10:02:25.891Z\",\n    \"updatedAt\": \"2023-11-11T17:25:17.188Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Strategist\",\n    \"method\": \"Peso\",\n    \"uri\": \"grey\",\n    \"id\": \"64b064029148ff07ce7234f0\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-05T08:00:56.117Z\",\n    \"updatedAt\": \"2024-03-31T17:29:53.535Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6757,7 +6752,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"route_name\": \"backing\",\n  \"method\": \"bleeding-edge\",\n  \"uri\": \"Account\"\n}"
+                  "raw": "{\n  \"route_name\": \"Strategist\",\n  \"method\": \"Peso\",\n  \"uri\": \"grey\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -6796,7 +6791,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"backing\",\n    \"method\": \"bleeding-edge\",\n    \"uri\": \"Account\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2c8\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-08T10:02:25.891Z\",\n    \"updatedAt\": \"2023-11-11T17:25:17.188Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Strategist\",\n    \"method\": \"Peso\",\n    \"uri\": \"grey\",\n    \"id\": \"64b064029148ff07ce7234f1\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-05T08:00:56.117Z\",\n    \"updatedAt\": \"2024-03-31T17:29:53.535Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6966,7 +6961,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"64b0551a0fb52ef9a5b9e2ca\",\n    \"roleId\": \"64b0551a0fb52ef9a5b9e2cb\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2d3\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-26T16:47:33.204Z\",\n    \"updatedAt\": \"2023-07-23T01:49:18.590Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"64b064029148ff07ce7234f3\",\n    \"roleId\": \"64b064029148ff07ce7234f4\",\n    \"id\": \"64b064029148ff07ce7234fc\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-27T01:03:50.219Z\",\n    \"updatedAt\": \"2024-06-16T15:04:11.671Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7004,7 +6999,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"routeId\": \"64b0551a0fb52ef9a5b9e2ca\",\n  \"roleId\": \"64b0551a0fb52ef9a5b9e2cb\"\n}"
+                  "raw": "{\n  \"routeId\": \"64b064029148ff07ce7234f3\",\n  \"roleId\": \"64b064029148ff07ce7234f4\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -7037,7 +7032,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"64b0551a0fb52ef9a5b9e2ca\",\n    \"roleId\": \"64b0551a0fb52ef9a5b9e2cb\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2cd\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-26T16:47:33.204Z\",\n    \"updatedAt\": \"2023-07-23T01:49:18.590Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"64b064029148ff07ce7234f3\",\n    \"roleId\": \"64b064029148ff07ce7234f4\",\n    \"id\": \"64b064029148ff07ce7234f6\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-27T01:03:50.219Z\",\n    \"updatedAt\": \"2024-06-16T15:04:11.671Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7075,7 +7070,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"routeId\": \"64b0551a0fb52ef9a5b9e2ca\",\n      \"roleId\": \"64b0551a0fb52ef9a5b9e2cb\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"routeId\": \"64b064029148ff07ce7234f3\",\n      \"roleId\": \"64b064029148ff07ce7234f4\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -7179,7 +7174,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"routeId\": \"64b0551a0fb52ef9a5b9e2ca\",\n        \"roleId\": \"64b0551a0fb52ef9a5b9e2cb\",\n        \"id\": \"64b0551a0fb52ef9a5b9e2cf\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-06-26T16:47:33.204Z\",\n        \"updatedAt\": \"2023-07-23T01:49:18.590Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"routeId\": \"64b064029148ff07ce7234f3\",\n        \"roleId\": \"64b064029148ff07ce7234f4\",\n        \"id\": \"64b064029148ff07ce7234f8\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2023-11-27T01:03:50.219Z\",\n        \"updatedAt\": \"2024-06-16T15:04:11.671Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7629,7 +7624,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"64b0551a0fb52ef9a5b9e2ca\",\n    \"roleId\": \"64b0551a0fb52ef9a5b9e2cb\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2d1\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-26T16:47:33.204Z\",\n    \"updatedAt\": \"2023-07-23T01:49:18.590Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"64b064029148ff07ce7234f3\",\n    \"roleId\": \"64b064029148ff07ce7234f4\",\n    \"id\": \"64b064029148ff07ce7234fa\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-27T01:03:50.219Z\",\n    \"updatedAt\": \"2024-06-16T15:04:11.671Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7673,7 +7668,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"routeId\": \"64b0551a0fb52ef9a5b9e2ca\",\n  \"roleId\": \"64b0551a0fb52ef9a5b9e2cb\"\n}"
+                  "raw": "{\n  \"routeId\": \"64b064029148ff07ce7234f3\",\n  \"roleId\": \"64b064029148ff07ce7234f4\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -7712,7 +7707,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"64b0551a0fb52ef9a5b9e2ca\",\n    \"roleId\": \"64b0551a0fb52ef9a5b9e2cb\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2d2\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-26T16:47:33.204Z\",\n    \"updatedAt\": \"2023-07-23T01:49:18.590Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"64b064029148ff07ce7234f3\",\n    \"roleId\": \"64b064029148ff07ce7234f4\",\n    \"id\": \"64b064029148ff07ce7234fb\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-27T01:03:50.219Z\",\n    \"updatedAt\": \"2024-06-16T15:04:11.671Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7882,7 +7877,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"64b0551a0fb52ef9a5b9e2d4\",\n    \"roleId\": \"64b0551a0fb52ef9a5b9e2d5\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2dd\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-26T11:05:32.038Z\",\n    \"updatedAt\": \"2023-10-03T05:42:11.464Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"64b064029148ff07ce7234fd\",\n    \"roleId\": \"64b064029148ff07ce7234fe\",\n    \"id\": \"64b064029148ff07ce723506\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-13T04:45:17.543Z\",\n    \"updatedAt\": \"2024-05-24T12:53:16.546Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7920,7 +7915,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"64b0551a0fb52ef9a5b9e2d4\",\n  \"roleId\": \"64b0551a0fb52ef9a5b9e2d5\"\n}"
+                  "raw": "{\n  \"userId\": \"64b064029148ff07ce7234fd\",\n  \"roleId\": \"64b064029148ff07ce7234fe\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -7953,7 +7948,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"64b0551a0fb52ef9a5b9e2d4\",\n    \"roleId\": \"64b0551a0fb52ef9a5b9e2d5\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2d7\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-26T11:05:32.038Z\",\n    \"updatedAt\": \"2023-10-03T05:42:11.464Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"64b064029148ff07ce7234fd\",\n    \"roleId\": \"64b064029148ff07ce7234fe\",\n    \"id\": \"64b064029148ff07ce723500\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-13T04:45:17.543Z\",\n    \"updatedAt\": \"2024-05-24T12:53:16.546Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7991,7 +7986,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"userId\": \"64b0551a0fb52ef9a5b9e2d4\",\n      \"roleId\": \"64b0551a0fb52ef9a5b9e2d5\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"userId\": \"64b064029148ff07ce7234fd\",\n      \"roleId\": \"64b064029148ff07ce7234fe\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -8095,7 +8090,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"userId\": \"64b0551a0fb52ef9a5b9e2d4\",\n        \"roleId\": \"64b0551a0fb52ef9a5b9e2d5\",\n        \"id\": \"64b0551a0fb52ef9a5b9e2d9\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-02-26T11:05:32.038Z\",\n        \"updatedAt\": \"2023-10-03T05:42:11.464Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"userId\": \"64b064029148ff07ce7234fd\",\n        \"roleId\": \"64b064029148ff07ce7234fe\",\n        \"id\": \"64b064029148ff07ce723502\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-05-13T04:45:17.543Z\",\n        \"updatedAt\": \"2024-05-24T12:53:16.546Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8545,7 +8540,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"64b0551a0fb52ef9a5b9e2d4\",\n    \"roleId\": \"64b0551a0fb52ef9a5b9e2d5\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2db\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-26T11:05:32.038Z\",\n    \"updatedAt\": \"2023-10-03T05:42:11.464Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"64b064029148ff07ce7234fd\",\n    \"roleId\": \"64b064029148ff07ce7234fe\",\n    \"id\": \"64b064029148ff07ce723504\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-13T04:45:17.543Z\",\n    \"updatedAt\": \"2024-05-24T12:53:16.546Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8589,7 +8584,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"64b0551a0fb52ef9a5b9e2d4\",\n  \"roleId\": \"64b0551a0fb52ef9a5b9e2d5\"\n}"
+                  "raw": "{\n  \"userId\": \"64b064029148ff07ce7234fd\",\n  \"roleId\": \"64b064029148ff07ce7234fe\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -8628,7 +8623,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"64b0551a0fb52ef9a5b9e2d4\",\n    \"roleId\": \"64b0551a0fb52ef9a5b9e2d5\",\n    \"id\": \"64b0551a0fb52ef9a5b9e2dc\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-26T11:05:32.038Z\",\n    \"updatedAt\": \"2023-10-03T05:42:11.464Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"64b064029148ff07ce7234fd\",\n    \"roleId\": \"64b064029148ff07ce7234fe\",\n    \"id\": \"64b064029148ff07ce723505\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-13T04:45:17.543Z\",\n    \"updatedAt\": \"2024-05-24T12:53:16.546Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",

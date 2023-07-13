@@ -22,7 +22,7 @@ async function seedUser () {
       'isDeleted':false,
       'phoneNumber':'lyrpcfqhs8',
       'email':'Destinee23@hotmail.com',
-      'name':'Rafael Fisher',
+      'name':'Myrtle Heidenreich',
       'isActive':true,
       'userType':authConstant.USER_TYPES.User
     };
@@ -33,7 +33,7 @@ async function seedUser () {
       'isDeleted':false,
       'phoneNumber':'zy1tnqoymk',
       'email':'Cydney_Kessler66@hotmail.com',
-      'name':'Megan Gislason I',
+      'name':'George Kuhic',
       'isActive':true,
       'userType':authConstant.USER_TYPES.Admin
     };
@@ -1226,126 +1226,6 @@ async function seedRouteRole () {
       },
       {
         route: '/device/api/v1/user/deletemany',
-        role: 'System_User',
-        method: 'POST'
-      },
-      {
-        route: '/device/api/v1/order/create',
-        role: 'Admin',
-        method: 'POST' 
-      },
-      {
-        route: '/device/api/v1/order/create',
-        role: 'System_User',
-        method: 'POST'
-      },
-      {
-        route: '/device/api/v1/order/addbulk',
-        role: 'Admin',
-        method: 'POST'
-      },
-      {
-        route: '/device/api/v1/order/addbulk',
-        role: 'System_User',
-        method: 'POST'
-      },
-      {
-        route: '/device/api/v1/order/list',
-        role: 'Admin',
-        method: 'POST' 
-      },
-      {
-        route: '/device/api/v1/order/list',
-        role: 'System_User',
-        method: 'POST'
-      },
-      {
-        route: '/device/api/v1/order/:id',
-        role: 'Admin',
-        method: 'GET' 
-      },
-      {
-        route: '/device/api/v1/order/:id',
-        role: 'System_User',
-        method: 'GET'
-      },
-      {
-        route: '/device/api/v1/order/count',
-        role: 'Admin',
-        method: 'POST' 
-      },
-      {
-        route: '/device/api/v1/order/count',
-        role: 'System_User',
-        method: 'POST'
-      },
-      {
-        route: '/device/api/v1/order/update/:id',
-        role: 'Admin',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/update/:id',
-        role: 'System_User',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/partial-update/:id',
-        role: 'Admin',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/partial-update/:id',
-        role: 'System_User',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/updatebulk',
-        role: 'Admin',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/updatebulk',
-        role: 'System_User',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/softdelete/:id',
-        role: 'Admin',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/softdelete/:id',
-        role: 'System_User',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/softdeletemany',
-        role: 'Admin',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/softdeletemany',
-        role: 'System_User',
-        method: 'PUT'
-      },
-      {
-        route: '/device/api/v1/order/delete/:id',
-        role: 'Admin',
-        method: 'DELETE'
-      },
-      {
-        route: '/device/api/v1/order/delete/:id',
-        role: 'System_User',
-        method: 'DELETE'
-      },
-      {
-        route: '/device/api/v1/order/deletemany',
-        role: 'Admin',
-        method: 'POST'
-      },
-      {
-        route: '/device/api/v1/order/deletemany',
         role: 'System_User',
         method: 'POST'
       },
