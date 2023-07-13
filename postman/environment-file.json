@@ -1,5 +1,5 @@
 {
-  "id": "163483a0-305a-4ad5-9ef2-54a99110b417",
+  "id": "6fc3ed9a-a13b-4706-8cc6-d019e7c2167e",
   "name": "burdayim_environment",
   "values": [
     {
@@ -14,6 +14,6 @@
     }
   ],
   "_postman_variable_scope": "environment",
-  "_postman_exported_at": "2023-07-13T19:45:00.488Z",
+  "_postman_exported_at": "2023-07-13T19:48:42.233Z",
   "_postman_exported_using": "Postman"
 }
