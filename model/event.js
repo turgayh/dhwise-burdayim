@@ -87,11 +87,6 @@ const schema = new Schema(
 
     qrCode:{ type:String },
 
-    isSecret:{
-      default:false,
-      type:Boolean
-    },
-
     count:{ type:Number },
 
     isActive:{ type:Boolean },

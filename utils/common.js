@@ -51,9 +51,18 @@ function replaceAll (string, search, replace) {
  * @return {boolean} : validation status
  */
 async function uniqueValidation (Model,data){
-  let filter = {};
-  if (data && data['phoneNumber'] ){
-    filter = { 'phoneNumber': data['phoneNumber'] };
+  let filter = { $or:[] };
+  if (data && data['phoneNumber']){
+    filter['$or'].push(
+      { 'phoneNumber':data['phoneNumber'] },
+      { 'email':data['phoneNumber'] },
+    );
+  }
+  if (data && data['email']){
+    filter['$or'].push(
+      { 'phoneNumber':data['email'] },
+      { 'email':data['email'] },
+    );
   }
   filter.isActive = true;
   filter.isDeleted = false;
@@ -227,6 +236,59 @@ const checkUniqueFieldsInDatabase = async (model, fieldsToCheck, data, operation
       }
     }
     break; 
+  case 'REGISTER':
+    for (const field of fieldsToCheck) {
+      //Add unique field and it's value in filter.
+      let query = {
+        ...filter,
+        [field] : data[field] 
+      };
+      let found = await dbService.findOne(model, query);
+      if (found) {
+        return {
+          isDuplicate : true,
+          field: field,
+          value:  data[field]
+        };
+      }
+    }
+    //cross field validation required when login with multiple fields are present, to prevent wrong user logged in. 
+  
+    if (data && data['phoneNumber']){
+      let loginFieldFilter = { $or:[] };
+      loginFieldFilter['$or'].push(
+        { 'phoneNumber':data['phoneNumber'] },
+        { 'email':data['phoneNumber'] },
+      );
+      loginFieldFilter.isActive = true;
+      loginFieldFilter.isDeleted = false;
+      let found = await dbService.findOne(model,loginFieldFilter);
+      if (found){
+        return {
+          isDuplicate : true,
+          field: 'phoneNumber and email',
+          value:  data['phoneNumber']
+        };
+      }
+    }
+    if (data && data['email']){
+      let loginFieldFilter = { $or:[] };
+      loginFieldFilter['$or'].push(
+        { 'phoneNumber':data['email'] },
+        { 'email':data['email'] },
+      );
+      loginFieldFilter.isActive = true;
+      loginFieldFilter.isDeleted = false;
+      let found = await dbService.findOne(model,loginFieldFilter);
+      if (found){
+        return {
+          isDuplicate : true,
+          field: 'phoneNumber and email',
+          value:  data['email']
+        };
+      }
+    }
+    break;
   default:
     return { isDuplicate : false };
     break;
