@@ -29,7 +29,6 @@ exports.schemaKeys = joi.object({
   subCategory: joi.string().trim().allow(null).allow(''),
   price: joi.number().integer().allow(0),
   qrCode: joi.string().allow(null).allow(''),
-  isSecret: joi.boolean().default(false),
   count: joi.number().integer().allow(0),
   isActive: joi.boolean(),
   isDeleted: joi.boolean()
@@ -72,7 +71,6 @@ exports.updateSchemaKeys = joi.object({
   subCategory: joi.string().trim().allow(null).allow(''),
   price: joi.number().integer().allow(0),
   qrCode: joi.string().allow(null).allow(''),
-  isSecret: joi.boolean().default(false),
   count: joi.number().integer().allow(0),
   isActive: joi.boolean(),
   isDeleted: joi.boolean(),
@@ -95,7 +93,6 @@ exports.findFilterKeys = joi.object({
       subCategory: joi.alternatives().try(joi.array().items(),joi.string(),joi.object()),
       price: joi.alternatives().try(joi.array().items(),joi.number().integer(),joi.object()),
       qrCode: joi.alternatives().try(joi.array().items(),joi.string(),joi.object()),
-      isSecret: joi.alternatives().try(joi.array().items(),joi.boolean(),joi.object()),
       count: joi.alternatives().try(joi.array().items(),joi.number().integer(),joi.object()),
       isActive: joi.alternatives().try(joi.array().items(),joi.boolean(),joi.object()),
       isDeleted: joi.alternatives().try(joi.array().items(),joi.boolean(),joi.object()),

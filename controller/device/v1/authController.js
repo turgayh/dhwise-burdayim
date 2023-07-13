@@ -39,7 +39,7 @@ const register = async (req,res) =>{
       userType: authConstant.USER_TYPES.User
     });
 
-    let checkUniqueFields = await common.checkUniqueFieldsInDatabase(User,[ 'phoneNumber' ],data,'INSERT');
+    let checkUniqueFields = await common.checkUniqueFieldsInDatabase(User,[ 'phoneNumber', 'email' ],data,'REGISTER');
     if (checkUniqueFields.isDuplicate){
       return res.validationError({ message : `${checkUniqueFields.value} already exists.Unique ${checkUniqueFields.field} are allowed.` });
     }

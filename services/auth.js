@@ -42,7 +42,7 @@ const generateToken = async (user,secret) => {
  */
 const loginUser = async (username,password,platform,roleAccess) => {
   try {
-    let where = { 'phoneNumber':username };
+    let where = { $or:[{ phoneNumber:username },{ email:username }] };
     where.isActive =  true;where.isDeleted = false;            let user = await dbService.findOne(User,where);
     if (user) {
       if (user.loginRetryLimit >= MAX_LOGIN_RETRY_LIMIT){
